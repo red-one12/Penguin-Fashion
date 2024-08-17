@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
   </head>
   <style>
   .montserrat{
@@ -25,21 +29,61 @@
   </style>
   <body>
     <header class="bg-[#FFFBF0]">
+
+
       <nav class="max-w-6xl m-auto flex justify-between items-center py-6">
         <div class="logo w-1/2">
           <!-- <h1 class="montserrat text-3xl font-bold"><span class="text-[#A4BC46]">Penguin </span>Fashion</h1> -->
            <img src="./icons/logo.png" class="w-72" alt="logo">
         </div>
 
-        <ul class="w-2/5 flex justify-between items-center">
+        <ul class="w-2/5 flex justify-between items-center font-medium">
           <li>Home</li>
           <li>Product</li>
           <li>About us</li>
           <li>Contact us</li>
         </ul>
       </nav>
+
+      <div class="hero-section flex justify-between items-center max-w-6xl m-auto mt-20 pb-16">
+        <div class="left w-1/2 flex flex-col justify-between items-start gap-y-7">
+          <h1 class="text-[#FABE4C] text-7xl font-bold uppercase bebas">Be the penguins</h1>
+          <h1 class="text-[#363958] text-7xl font-bold uppercase bebas">of winter</h1>
+          <p class="w-96 roboto text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt veritatis</p>
+          <button class="flex justify-center items-center py-3 px-7 rounded-xl bg-gradient-to-r from-[#A4BC46] to-[#85A019] gap-1">
+            <i class="ri-shopping-cart-line text-white"></i>
+            <p class="roboto text-sm text-white">BUY NOW</p>
+          </button>
+        </div>
+        <div class="right w-1/2">
+          <img src="./images/model.png" alt="model photo">
+        </div>
+      </div>
     </header>
-    <main></main>
+    <main>
+
+      <div class="woman-jacket">
+        <h1>WOMAN JACKET</h1>
+        <div class="cards">
+          <div class="card">
+            <div class="img-div">
+              <img src="./images/jacket-1.png" alt="jacket">
+            </div>
+            <p>Yellow Coat Jacket</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum magni sed, aspernatur nulla ullam provident?</p>
+            <div class="price">
+              <h1>$234</h1>
+              <button class="flex justify-center items-center py-3 px-7 rounded-xl bg-gradient-to-r from-[#A4BC46] to-[#85A019] gap-1">
+                <i class="ri-shopping-cart-line text-white"></i>
+                <p class="roboto text-sm text-white">BUY NOW</p>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </main>
     <footer></footer>
   </body>
 </html>
